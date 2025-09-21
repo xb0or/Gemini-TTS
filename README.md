@@ -97,5 +97,6 @@ gemini_tts("你好，世界！", voice="Zephyr", output_path="hello.wav", config
 - **未填写 API Key**：调用 `gemini_tts` 会抛出 `ValueError: Gemini API key missing`。请在配置中填写。
 - **声线列表无法刷新**：检查网络连通性与 API 权限，失败时应用会恢复本地缓存。
 - **生成失败**：查看 GUI 下方或 `log.log` 获取详细错误信息，常见原因包括无效声线 ID 或网络波动。
+- **连接问题**：如果使用官方API地址或者免费KEY将会出现此类错误。
 
-如需更多帮助，可结合 `CHANGELOG.md` 了解最新更新内容。
+
